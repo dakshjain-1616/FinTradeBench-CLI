@@ -1,0 +1,106 @@
+{
+  "model": "demo/dry-run-model",
+  "timestamp": "20260321T082337Z",
+  "total_score": 20.0,
+  "category_scores": {
+    "market_analysis": 1.0,
+    "risk_assessment": 0.0,
+    "earnings_interpretation": 0.0,
+    "trading_strategy": 0.0,
+    "macro_economics": 0.0
+  },
+  "avg_confidence": 4.126448472373562,
+  "avg_time_s": 0.1986481328042229,
+  "results": [
+    {
+      "id": "MA001",
+      "category": "market_analysis",
+      "question": "A stock has a P/E ratio of 35 while its industry peers average 18. What does this suggest about investor expectations for the company?",
+      "answer": "This represents a premium valuation with higher growth expectations. The market assigns higher earnings multiple due to anticipated future earnings growth. Investors expect strong momentum and superior performance versus peers.",
+      "reference_answer": "A P/E ratio of 35 versus an industry average of 18 indicates the stock is trading at a premium. Investors expect higher future earnings growth for this company compared to its peers. This premium valuation reflects optimism about the company's growth prospects, but also implies higher risk if growth expectations are not met.",
+      "keywords": [
+        "premium",
+        "growth",
+        "expectations",
+        "valuation",
+        "earnings"
+      ],
+      "score": 1.0,
+      "keywords_matched": "5/5",
+      "confidence": 4.917437566157809,
+      "time_taken_s": 0.4208372517596013
+    },
+    {
+      "id": "RA001",
+      "category": "risk_assessment",
+      "question": "A portfolio is 80% invested in technology stocks. What are the primary risks of this concentration and how would you mitigate them?",
+      "answer": "The golden cross is a bullish moving average crossover signal that indicates momentum shift. When the 50-day crosses above the 200-day, traders interpret it as a buy signal for upward trend continuation.",
+      "reference_answer": "The primary risk is concentration risk: high exposure to a single sector means sector-specific downturns will severely impact the portfolio. Technology stocks are also sensitive to interest rate rises (growth stocks lose value), regulatory changes, and market sentiment shifts. Mitigation includes diversification across sectors, adding defensive stocks, bonds, and alternative assets to reduce correlation.",
+      "keywords": [
+        "concentration risk",
+        "diversification",
+        "sector",
+        "correlation",
+        "mitigation"
+      ],
+      "score": 0.0,
+      "keywords_matched": "0/5",
+      "confidence": 3.2776064081662324,
+      "time_taken_s": 0.1343206949964999
+    },
+    {
+      "id": "EI001",
+      "category": "earnings_interpretation",
+      "question": "A company reports revenue of $500M and net income of $50M. Calculate the net profit margin and explain what it means.",
+      "answer": "Declining volume during a price downtrend indicates selling pressure is weakening. The momentum of the downtrend is fading, suggesting possible reversal or stabilization.",
+      "reference_answer": "Net profit margin = Net Income / Revenue = $50M / $500M = 10%. This means the company keeps $0.10 of profit for every $1 of revenue after all expenses, taxes, and interest. A 10% net margin is considered average for most industries. Higher margins indicate more efficient cost management and stronger pricing power.",
+      "keywords": [
+        "10%",
+        "net profit margin",
+        "revenue",
+        "net income",
+        "efficiency"
+      ],
+      "score": 0.0,
+      "keywords_matched": "0/5",
+      "confidence": 4.756251764062625,
+      "time_taken_s": 0.1982585243504894
+    },
+    {
+      "id": "TS001",
+      "category": "trading_strategy",
+      "question": "Explain the logic behind a mean reversion trading strategy and what market conditions make it most effective.",
+      "answer": "A P/B ratio below 1.0 means the stock trades below its book value and net assets. Often seen in banking and financial sectors, it can signal undervaluation or distress.",
+      "reference_answer": "Mean reversion assumes that prices deviate temporarily from their historical average and will eventually return to it. Traders buy when prices fall significantly below the mean and sell when they rise above it. This strategy is most effective in range-bound, sideways markets with low volatility and when assets have strong fundamental anchors. It underperforms in strong trending markets.",
+      "keywords": [
+        "mean reversion",
+        "average",
+        "range-bound",
+        "buy low",
+        "revert"
+      ],
+      "score": 0.0,
+      "keywords_matched": "0/5",
+      "confidence": 3.2186480825024217,
+      "time_taken_s": 0.1240756421255409
+    },
+    {
+      "id": "ME001",
+      "category": "macro_economics",
+      "question": "How does an unexpected rise in inflation typically affect stock markets, bond markets, and the currency in the short term?",
+      "answer": "The VIX measures implied volatility and market fear. High VIX above 30 signals panic and uncertainty. Investors use it as a contrarian indicator \u2014 extreme fear may be a buying opportunity while low VIX warns of complacency.",
+      "reference_answer": "Unexpected inflation typically: depresses bond prices (yields rise to compensate), causes mixed stock market reaction (value stocks may hold up better than growth stocks which lose value as discount rates rise), and strengthens the currency if markets expect the central bank to raise interest rates in response. Real assets and commodities often benefit from inflation surprises.",
+      "keywords": [
+        "inflation",
+        "bond prices",
+        "interest rates",
+        "discount rates",
+        "currency"
+      ],
+      "score": 0.0,
+      "keywords_matched": "0/5",
+      "confidence": 4.462298540978721,
+      "time_taken_s": 0.11574855078898297
+    }
+  ]
+}
